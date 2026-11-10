@@ -2,6 +2,26 @@
 
 A dated record of what changed each day. The game lives in a Roblox place (the scripts are not in this repo), so this log and the screenshots are the public record of the work.
 
+## 2026-11-09
+- **Overnight polish pass (saved in the place, not published yet):**
+  - **Goofy body language:** a procedural animation layer on top of the normal animations, for every player and customer.
+    - Interactions get a reaction: poke, grab, shove a door, crank a breaker, scrub, dive into a hiding spot, tear a note and more.
+    - Outcomes too: a bow on a serve, a chef's kiss on a perfect dish, a facepalm on a wrong report, a cough on a burnt grill, a fist pump on a catch.
+    - Carrying poses (hugging a supply box, a careful waiter with a plate), tiptoeing and trembling during blackouts, idle fidgets, and the crew dances when a night is survived.
+  - **Emotes:** press B, then 1–6, for wave, point, cheer, shrug, facepalm or dance.
+  - **Customers with moods:** they cross their arms and tap a foot when impatient, cheer when served, and huff off ("Rude.") when wrongly reported. Normal customers make small talk.
+  - **New anomalies:** The Twist (legs on backwards, moonwalks in), The Copycat (a copy of one of your crew), The Trail (wet red footprints from the door), and Order Up (a ticket on the rail for one of the crew, "medium rare").
+  - **Order tickets:** each order hangs on a ticket rail in the kitchen and is stamped PAID, VOID or WALKED when the customer leaves.
+  - **Reported anomalies** dissolve into black smoke with a sucked-in whoosh.
+  - **Shift report:** prints like a receipt line by line, a grade stamp slams down, and crew awards show who did what (Employee of the Night, Eagle Eye, Head Chef, Lifesaver, Broom Menace, Snack Time).
+- Tested in Roblox Studio. Not everything was checked by eye: the PAID/VOID/WALKED drop animation and the longer smoke were not screenshotted.
+
+![Shift report](screenshots/shift-report-receipt.jpg)
+![Ticket rail](screenshots/ticket-rail.jpg)
+![Customer huff](screenshots/customer-huff.jpg)
+![Emote strip](screenshots/emote-strip.jpg)
+![Shrug emote](screenshots/shrug-emote.jpg)
+
 ## 2026-11-08
 - **UI pass (saved in the place, not published yet):**
   - **Shared design system:** a `UIKit` module (colours, fonts, key labels, hover effects, tooltips) used across the HUD.
