@@ -4,11 +4,11 @@ A dated record of what changed each day. The game lives in a Roblox place (the s
 
 ## 2026-11-12
 - **Published.** Everything since 8 Nov is now live: the polish and UI passes, the Blender accessories, Lost & Found, and the co-op and retention pass. Before publishing, I ran one night of each week (1–5) and opened a loot box in Studio; the console was clean. One small fix shipped with it: a debug-only crash when an event was forced before the shift had started.
-- **Venue layer (saved in the place, not published yet):** groundwork for The Grand Lunaire. Every diner position that was typed into the scripts now lives in one data module. That covers customer and event routes, hunter patrols, hiding and supply spots, the break room, and the cold-open and title-screen camera shots. A second venue can plug in without touching gameplay code.
+- **Venue layer (published the same afternoon):** groundwork for The Grand Lunaire. Every diner position that was typed into the scripts now lives in one data module. That covers customer and event routes, hunter patrols, hiding and supply spots, the break room, and the cold-open and title-screen camera shots. A second venue can plug in without touching gameplay code.
   - Stations and hiding spots are now found by tag instead of by name. Each week names its venue, and a small service tracks the current one.
   - The five slightly different "which room am I in" checks are now one shared definition. It gives the same answer as the old code at all 62,560 test points.
   - No gameplay change: every script was tested in Studio right after it was switched, then all five weeks were run again at the end.
-- Found while testing, not fixed yet: in Week 3 the anomaly light flicker can switch dark rooms' lamps back on (only the look; the room still counts as dark).
+- Fixed an older bug found while testing: the "something changed" light flicker switched every lamp back on, even mid-blackout or in Week 3's dark rooms. Lamps that have lost power now stay dark. Also fixed the trash prompt sometimes landing on the wrong part of the dumpster.
 
 ## 2026-11-11
 - **Blender is now wired to Claude Code** (Blender MCP add-on on localhost, plus a small socket client as a fallback). Every model is built from a script, checked from several angles, and exported in one FBX for Roblox.
