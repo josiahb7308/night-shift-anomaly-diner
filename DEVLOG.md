@@ -17,6 +17,7 @@ A dated record of what changed each day. The game lives in a Roblox place (the s
   - A placement script dresses the blockout: it hides the grey-box parts a mesh replaces but keeps them as colliders, so gameplay code is untouched and the whole pass can be undone in one call. Sconces are ray-cast onto the walls, and glowing parts go dark in a blackout like the real lamps.
   - Played a Week 1 shift there to check it: customers at the bar, console clean.
   - Second batch the same day: wood wainscot and a deco frieze tiled along the walls (each tile is ray-checked so doorways are skipped), a sunburst ceiling rose with coffer beams, a brass frame for the back-bar mirror, a host stand, a grand piano with its lid propped open, drapes on the tall windows and potted palms. About 2,500 more triangles. The hunters still reach every part of the room with the new columns and piano in the way.
+  - Third batch: stepped glass pendant lamps for the smaller rooms, and a private dining room with a ten-seat banquet table (candelabra, a bowl of roses), emerald chairs, dark green walls and a rug. The foyer and lobby got marble floors and panelling, and the display case now holds trophies and vintage bottles. A blackout test confirmed every glowing part goes dark and comes back with the real lamps.
 - Still to do: more art batches. Tested solo only.
 
 ## 2026-11-12
