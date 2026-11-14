@@ -13,7 +13,10 @@ A dated record of what changed each day. The game lives in a Roblox place (the s
   - The "NEXT" objective line fits its text and pops when it changes.
   - UI text uses the venue's name ("Grand Lunaire") instead of always saying Moonlite.
 - **Bugs fixed:** player cards on the planning board flickered (they were rebuilt on every refresh); hiding when the shift ended left you stuck in the hide view; the linen cart said "In the dumpster"; the planning-board camera sat behind the wall at the Lunaire; award titles on the shift report were squashed to unreadable.
-- Still to do: re-aim the Lobby camera, then walkthrough screenshots for approval before any art work. Tested solo only.
+- **Lunaire art pass, first batch (14 Nov, saved, not published):** modelled a dining-room kit in Blender from a small Python helper library: round table with a draped cloth and candle lamp, upholstered chair, bar stool, brass chandelier with crystal drops, deco wall sconce, bottle rows, marble column, panelled bar front with a foot rail, and a balustrade module. Nine props, about 5,100 triangles, no textures (parts are coloured by name in Studio).
+  - A placement script dresses the blockout: it hides the grey-box parts a mesh replaces but keeps them as colliders, so gameplay code is untouched and the whole pass can be undone in one call. Sconces are ray-cast onto the walls, and glowing parts go dark in a blackout like the real lamps.
+  - Played a Week 1 shift there to check it: customers at the bar, console clean. Next: wall panelling and the ceiling, host stand, piano, then the gallery and kitchen.
+- Still to do: more art batches. Tested solo only.
 
 ## 2026-11-12
 - **Published.** Everything since 8 Nov is now live: the polish and UI passes, the Blender accessories, Lost & Found, and the co-op and retention pass. Before publishing, I ran one night of each week (1–5) and opened a loot box in Studio; the console was clean. One small fix shipped with it: a debug-only crash when an event was forced before the shift had started.
