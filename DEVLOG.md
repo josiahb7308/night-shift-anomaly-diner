@@ -15,7 +15,8 @@ A dated record of what changed each day. The game lives in a Roblox place (the s
 - **Bugs fixed:** player cards on the planning board flickered (they were rebuilt on every refresh); hiding when the shift ended left you stuck in the hide view; the linen cart said "In the dumpster"; the planning-board camera sat behind the wall at the Lunaire; award titles on the shift report were squashed to unreadable.
 - **Lunaire art pass, first batch (14 Nov, saved, not published):** modelled a dining-room kit in Blender from a small Python helper library: round table with a draped cloth and candle lamp, upholstered chair, bar stool, brass chandelier with crystal drops, deco wall sconce, bottle rows, marble column, panelled bar front with a foot rail, and a balustrade module. Nine props, about 5,100 triangles, no textures (parts are coloured by name in Studio).
   - A placement script dresses the blockout: it hides the grey-box parts a mesh replaces but keeps them as colliders, so gameplay code is untouched and the whole pass can be undone in one call. Sconces are ray-cast onto the walls, and glowing parts go dark in a blackout like the real lamps.
-  - Played a Week 1 shift there to check it: customers at the bar, console clean. Next: wall panelling and the ceiling, host stand, piano, then the gallery and kitchen.
+  - Played a Week 1 shift there to check it: customers at the bar, console clean.
+  - Second batch the same day: wood wainscot and a deco frieze tiled along the walls (each tile is ray-checked so doorways are skipped), a sunburst ceiling rose with coffer beams, a brass frame for the back-bar mirror, a host stand, a grand piano with its lid propped open, drapes on the tall windows and potted palms. About 2,500 more triangles. The hunters still reach every part of the room with the new columns and piano in the way.
 - Still to do: more art batches. Tested solo only.
 
 ## 2026-11-12
