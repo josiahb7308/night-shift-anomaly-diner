@@ -2,6 +2,19 @@
 
 A dated record of what changed each day. The game lives in a Roblox place (the scripts are not in this repo), so this log and the screenshots are the public record of the work.
 
+## 2026-11-13 – 11-14
+- **The Grand Lunaire blockout (saved, not published):** a second venue for weeks 6+. It's a fine-dining restaurant with a lobby, a dining room with a bar, a U-shaped gallery with two grand stairs and a curtained private box, a big kitchen, a locker room, an office, a loading dock and a wine cellar. A dumbwaiter links the kitchen pass, the gallery and the cellar.
+  - Every hiding spot, camera and hunter route is set up there too. The game picks the venue from the week, so no gameplay code is duplicated.
+- **Tested a full Week 1 night at the Lunaire in Studio:** customers queue at the bar; serving, reporting, the blackout and Walt's catch, hiding, the cameras, the dumbwaiter, the shift report and the crew cinematic all work. Every room is reachable for the hunters. Then I ran Week 1 at the Moonlite again to check nothing broke there (it didn't; the console was clean).
+- **UI pass: simpler and calmer.**
+  - One rule now clears the screen whenever a panel or cinematic is open: the top-left buttons and the key hints slide away, and during cinematics the clock bar lifts out too.
+  - Key hints shrink to the three or four keys that matter right now, and only show while you're still learning.
+  - The daily challenge became a small chip next to the other buttons that opens briefly when your progress moves.
+  - The "NEXT" objective line fits its text and pops when it changes.
+  - UI text uses the venue's name ("Grand Lunaire") instead of always saying Moonlite.
+- **Bugs fixed:** player cards on the planning board flickered (they were rebuilt on every refresh); hiding when the shift ended left you stuck in the hide view; the linen cart said "In the dumpster"; the planning-board camera sat behind the wall at the Lunaire; award titles on the shift report were squashed to unreadable.
+- Still to do: re-aim the Lobby camera, then walkthrough screenshots for approval before any art work. Tested solo only.
+
 ## 2026-11-12
 - **Published.** Everything since 8 Nov is now live: the polish and UI passes, the Blender accessories, Lost & Found, and the co-op and retention pass. Before publishing, I ran one night of each week (1–5) and opened a loot box in Studio; the console was clean. One small fix shipped with it: a debug-only crash when an event was forced before the shift had started.
 - **Venue layer (published the same afternoon):** groundwork for The Grand Lunaire. Every diner position that was typed into the scripts now lives in one data module. That covers customer and event routes, hunter patrols, hiding and supply spots, the break room, and the cold-open and title-screen camera shots. A second venue can plug in without touching gameplay code.
