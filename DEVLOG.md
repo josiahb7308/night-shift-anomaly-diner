@@ -2,6 +2,16 @@
 
 A dated record of what changed each day. The game lives in a Roblox place (the scripts are not in this repo), so this log and the screenshots are the public record of the work.
 
+## 2026-11-15
+- **Lunaire supplies (saved, not published):** the second venue now has its own things to carry up from the cellar instead of the diner's cardboard boxes. An ice crate of prime cuts, a wine case, a ribboned pastry box and a crate of produce, plus the stock piles you grab them from (a pallet of wine cases, a baker's rack, a stack of produce crates). These were modelled on the evening of the 14th and checked today: I grabbed the produce crate in the cellar, carried it up and restocked the sauté range with it.
+- **Art pass, sixth batch: cellar, coat check and back of house.** Eleven props, about 3,600 triangles, built headless from one script again.
+  - The cellar's grey slabs are now 34 wine-rack modules full of bottles, with three big casks on cradles beside the stair, tasting barrels with a candle and glasses, caged lamps and pipes along the ceiling. ![The Lunaire cellar](screenshots/lunaire-cellar.jpg)
+  - The coat check has brass rails of real coats under a hat shelf. Players can still hide among them, because the old blocks stay as invisible colliders.
+  - The service corridor, staff hall, locker room and dock got plaster walls with a green dado, terracotta tile, enamel lamps and pipes, a notice board, a mop bucket, a delivery pallet and a hand truck. The office got the dining room's walnut wainscot. ![The service corridor](screenshots/lunaire-corridor.jpg)
+  - Checks: the hunters still reach every room with the new furniture in the way, the 71 glowing parts all go dark in a blackout, and a Moonlite night afterwards ran with a clean console.
+- **Small fixes:** two hint lines called the Lunaire "the diner", and the restock hint said "saute station" instead of "SAUTÉ range".
+- Found, not fixed: the west hiding nook in the cellar is half blocked by the wine pallet (the smaller hunter size still gets in), and the linen cart on the dock is still a plain box.
+
 ## 2026-11-13 – 11-14
 - **The Grand Lunaire blockout (saved, not published):** a second venue for weeks 6+. It's a fine-dining restaurant with a lobby, a dining room with a bar, a U-shaped gallery with two grand stairs and a curtained private box, a big kitchen, a locker room, an office, a loading dock and a wine cellar. A dumbwaiter links the kitchen pass, the gallery and the cellar.
   - Every hiding spot, camera and hunter route is set up there too. The game picks the venue from the week, so no gameplay code is duplicated.
