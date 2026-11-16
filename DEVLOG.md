@@ -11,12 +11,16 @@ A dated record of what changed each day. The game lives in a Roblox place (the s
   - Checks: the hunters still reach every room with the new furniture in the way, the 71 glowing parts all go dark in a blackout, and a Moonlite night afterwards ran with a clean console.
 - **Small fixes:** two hint lines called the Lunaire "the diner", and the restock hint said "saute station" instead of "SAUTÉ range".
 - Found, not fixed: the west hiding nook in the cellar is half blocked by the wine pallet (the smaller hunter size still gets in).
-- **Art pass, seventh batch: lobby, foyer and hide-spot props.** Ten props: a deco elevator surround with a floor dial, buttoned velvet benches, brass posts with velvet ropes, a marble console with flowers, a menu easel, an umbrella stand, a bell for the coat check, frames for the dumbwaiter hatches, and a real canvas laundry cart for the hiding spot on the dock (it was a plain box). A burgundy runner now leads from the lift to the dining-room doors.
+- **Art pass, seventh batch: lobby, foyer and hide-spot props.** Ten props: a deco elevator surround with a floor dial, buttoned velvet benches, brass posts with velvet ropes, a marble console with flowers, a menu easel, an umbrella stand, a bell for the coat check, frames for the dumbwaiter hatches, and a real canvas laundry cart for the hiding spot on the dock (it was a plain box). A burgundy runner now leads from the lift to the dining-room doors. ![The Lunaire lobby](screenshots/lunaire-lobby.jpg)
 - **Three dishes got their own minigame** instead of reusing the station's:
   - Champagne foams. The foam hides the level and counts toward spilling, so you pour in bursts and let it settle on the line.
   - Crème brûlée: a torch sweeps across the custard on its own and you choose when it fires. Every part has to go golden and none may burn.
   - Chocolate soufflé: one press to take it out. Too early and it collapses, too late and it burns.
 - **Fixed:** Space no longer makes your character jump while a cooking panel is open (it's the minigame key). The patty and soufflé graphic also sat on top of the dish name; the bar moved down.
+- **The Lunaire tells its own story now.** Until today the new venue opened with the diner's roadside cinematic and Dolores telling you to keep the coffee hot.
+  - Its own cold open: out of the hotel elevator, through the lobby doors, down the dining room to the bar. "The diner is closed for repairs. The owners have another place." Each venue now names the week that opens there, and the cinematic plays on that week's first night. ![The Lunaire cold open](screenshots/lunaire-cold-open.jpg)
+  - Five answering-machine tapes for the first Lunaire week (the Freezer Thing): the walk-in stays shut, watch the gauge on the pass, and if you can see your own breath it isn't in the freezer anymore. These are a draft. The hunter isn't built yet, so the tapes will be adjusted to match it.
+  - Checked both ways: the Lunaire plays the new opening and tape, and the Moonlite still plays its original ones.
 - A note on process: the lobby batch and the three minigames were built at the end of one session that stopped before writing them up. The next session found them in the saved place, so it tested them before logging them: every new lobby prop is still walkable around for the hunters, all three minigames open and respond, and the console is clean. I haven't won them by hand (the test tools can't hold and release precisely).
 
 ## 2026-11-13 – 11-14
