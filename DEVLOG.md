@@ -2,6 +2,18 @@
 
 A dated record of what changed each day. The game lives in a Roblox place (the scripts are not in this repo), so this log and the screenshots are the public record of the work.
 
+## 2026-11-16
+- **Table service at the Lunaire (saved, not published).** The fine-dining venue no longer plays like the diner at a fancier bar. Decided today: this comes before the first Lunaire week's hunter.
+  - Parties of one or two come up in the hotel lift and queue by the host stand asking to be seated. Hold E on them and they walk to their table and sit down. Wait too long and they leave.
+  - Each course goes on the pass as its own ticket on gold paper, apart from the bar's: a main and a dessert on the first nights, then a starter as well from night 3. Guests eat between courses, and their patience pauses while a hunter is out.
+  - You can carry two plates now. Serve a guest and they take their own dish off your tray; hand them the wrong one and they tell you so.
+  - Pay is per plate, plus a bonus for everyone who served a table that left happy.
+  - One guest in a party can be wrong. Report just that one: report a real guest and the whole table storms out.
+  - ![A party seated at their table](screenshots/lunaire-table-service.jpg)
+  - Bugs found while testing: guests sat about two studs above their chairs (the rig's pivot is near the feet, so they're now placed by the hip), and a party could hold its table forever if the shift ended under it.
+  - Checked: the whole loop from the lift to the bill, a wrong guest reported, parties timing out at the stand and at the table (across a blackout), and serving through the real prompts. The diner still runs without any of it, with a clean console.
+- **Week 6 story:** the "cold comes off at five" finale is dropped; that night needs a new ending, still to design.
+
 ## 2026-11-15
 - **Lunaire supplies (saved, not published):** the second venue now has its own things to carry up from the cellar instead of the diner's cardboard boxes. An ice crate of prime cuts, a wine case, a ribboned pastry box and a crate of produce, plus the stock piles you grab them from (a pallet of wine cases, a baker's rack, a stack of produce crates). These were modelled on the evening of the 14th and checked today: I grabbed the produce crate in the cellar, carried it up and restocked the sauté range with it.
 - **Art pass, sixth batch: cellar, coat check and back of house.** Eleven props, about 3,600 triangles, built headless from one script again.
